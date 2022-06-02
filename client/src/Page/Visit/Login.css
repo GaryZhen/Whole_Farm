@@ -1,0 +1,64 @@
+
+
+.Page{
+  flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  /* put everything in the middle*/
+      align-items: center;
+      width: 100%;
+  }
+  
+  .Content input {
+      width: 260px;
+      height: 25px;
+      margin-inline-end: 10px;  /*外边距，边缘*/
+      font-size: 15px;
+      padding-inline: 10px;  /*内边距*/
+  }
+  
+  
+  .Content select {
+      width: 285px;
+      height: 30px;
+      margin-top: 6px;
+      margin-inline-end: 10px;  /*外边距，边缘*/
+      font-size: 10px;
+      padding-inline: 15px;  /*内边距*/
+    }
+    
+    .Content button {
+      width: 290px;
+      height: 25px;
+      margin-top: 20px;
+    }
+  
+    .bigShowProduct{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  /* put everything in the middle*/
+      align-items: center;
+      width: 100%;
+      font-size: 15px;
+  }
+  .smallShowProduct input {
+      display: block;
+      width: 265px;
+      height: 25px;
+      margin-top: 15px;
+      font-size: 15px;
+    } 
+  
+  .smallShowProduct button {
+      display: block;
+      width: 290px;
+      height: 25px;
+      margin-top: 15px;
+      font-size: 10px;
+    } 
+  

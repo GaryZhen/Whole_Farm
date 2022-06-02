@@ -1,0 +1,53 @@
+.Entering {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+.Entering h1 {
+  text-align: center;
+}
+.registration{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* put everything in the middle*/
+    align-items: center;
+    width: 100%;
+  }
+  
+  .registration input{
+      width: 300px;
+      height: 50px;
+      margin-inline-end: 10px;  /*外边距，边缘*/
+      font-size: 25px;
+      padding-inline: 15px;  /*内边距*/
+  }
+  
+  .registration button{
+    width: 330px;
+    height: 50px;
+    margin-top: 15px;
+  }
+  
+  .login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  
+  }
+  
+  .login button{
+    width: 330px;
+    height: 50px;
+    margin-top: 15px;
+  }
+
+  .login input{
+    width: 300px;
+    height: 50px;
+    margin-inline-end: 10px;  /*外边距，边缘*/
+    font-size: 25px;
+    padding-inline: 15px;  /*内边距*/
+}
+  
